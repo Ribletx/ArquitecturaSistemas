@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>📝 Gestor de Tareas</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input, button, a { margin: 5px; }
+    li { margin: 8px 0; }
+    button, a {
+      padding: 5px 10px;
+      text-decoration: none;
+      border: none;
+      background-color: #f0f0f0;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover, a:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>📝 Gestor de Tareas</h1>
+
+  <form action="/add" method="post">
+    <input type="text" name="title" placeholder="📌 Título de la tarea" required />
+    <button type="submit">➕ Crear tarea</button>
+  </form>
+
+  <button onclick="location.href='/complete_all'">✅ Marcar todas como completadas</button>
+  <button onclick="location.href='/delete_all'">🗑️ Eliminar todas las tareas</button>
+
+  <h2>📋 Lista de Tareas</h2>
+  <ul>
+    {% for task in tasks %}
+      <li>
+        <strong>{{ task.title }}</strong>
+        {% if task.completed %} ✅{% endif %}
+        <a href="/complete/{{ task.id }}">✔️ Completar</a>
+        <a href="/delete/{{ task.id }}">🗑️ Eliminar</a>
+      </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
