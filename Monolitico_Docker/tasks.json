@@ -1,0 +1,16 @@
+[
+    {
+        "id": "83927fd4-03ee-40ea-ba28-25e5f2756127",
+        "titulo": "Tarea 1",
+        "descripcion": "Prueba 1",
+        "completada": false,
+        "creada_en": "2025-05-22T10:23:25.742732"
+    },
+    {
+        "id": "dca9d97c-805f-4431-87be-dc3427f3c272",
+        "titulo": "Tarea 2",
+        "descripcion": "Prueba 2",
+        "completada": true,
+        "creada_en": "2025-05-22T10:23:40.922485"
+    }
+]
