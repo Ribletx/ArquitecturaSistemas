@@ -1,0 +1,24 @@
+2025-06-05 09:26:34,445 - INFO - Verificando servidores al inicio...
+2025-06-05 09:26:38,521 - INFO - Balanceador de carga iniciado en http://localhost:8080
+2025-06-05 09:26:38,523 - INFO - Puedes verificar el estado de los servidores en http://localhost:8080/status
+2025-06-05 09:26:38,568 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.53.140.27:8080
+2025-06-05 09:26:38,568 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-05 09:27:38,775 - INFO - 127.0.0.1 - - [05/Jun/2025 09:27:38] "[33mPUT /api/tasks/999/complete HTTP/1.1[0m" 404 -
+2025-06-05 09:27:42,865 - INFO - 127.0.0.1 - - [05/Jun/2025 09:27:42] "[31m[1mPOST /api/tasks HTTP/1.1[0m" 400 -
+2025-06-05 09:27:46,940 - INFO - 127.0.0.1 - - [05/Jun/2025 09:27:46] "[35m[1mPOST /api/tasks/simulate-error HTTP/1.1[0m" 500 -
+2025-06-05 09:27:52,068 - INFO - 127.0.0.1 - - [05/Jun/2025 09:27:52] "GET /errors/stats HTTP/1.1" 200 -
+2025-06-05 09:29:38,060 - INFO - 127.0.0.1 - - [05/Jun/2025 09:29:38] "[33mPUT /api/tasks/999/complete HTTP/1.1[0m" 404 -
+2025-06-05 09:29:42,146 - INFO - 127.0.0.1 - - [05/Jun/2025 09:29:42] "[31m[1mPOST /api/tasks HTTP/1.1[0m" 400 -
+2025-06-05 09:29:46,262 - INFO - 127.0.0.1 - - [05/Jun/2025 09:29:46] "[35m[1mPOST /api/tasks/simulate-error HTTP/1.1[0m" 500 -
+2025-06-05 09:29:51,383 - INFO - 127.0.0.1 - - [05/Jun/2025 09:29:51] "GET /errors/stats HTTP/1.1" 200 -
+2025-06-05 09:34:08,107 - INFO - 127.0.0.1 - - [05/Jun/2025 09:34:08] "[33mPUT /api/tasks/999/complete HTTP/1.1[0m" 404 -
+2025-06-05 09:34:12,222 - INFO - 127.0.0.1 - - [05/Jun/2025 09:34:12] "[31m[1mPOST /api/tasks HTTP/1.1[0m" 400 -
+2025-06-05 09:34:16,336 - INFO - 127.0.0.1 - - [05/Jun/2025 09:34:16] "[35m[1mPOST /api/tasks/simulate-error HTTP/1.1[0m" 500 -
+2025-06-05 09:34:21,417 - INFO - 127.0.0.1 - - [05/Jun/2025 09:34:21] "GET /errors/stats HTTP/1.1" 200 -
+2025-06-05 09:35:06,323 - INFO - 127.0.0.1 - - [05/Jun/2025 09:35:06] "[33mPUT /api/tasks/999/complete HTTP/1.1[0m" 404 -
+2025-06-05 09:35:10,396 - INFO - 127.0.0.1 - - [05/Jun/2025 09:35:10] "[31m[1mPOST /api/tasks HTTP/1.1[0m" 400 -
+2025-06-05 09:35:14,503 - INFO - 127.0.0.1 - - [05/Jun/2025 09:35:14] "[35m[1mPOST /api/tasks/simulate-error HTTP/1.1[0m" 500 -
+2025-06-05 09:35:19,584 - INFO - 127.0.0.1 - - [05/Jun/2025 09:35:19] "GET /errors/stats HTTP/1.1" 200 -
